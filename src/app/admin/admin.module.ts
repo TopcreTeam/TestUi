@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from "@angular/router";
+
 import { AdminComponent } from './admin.component';
 import { AdminProductComponent } from './admin-product/admin-product.component';
 import { AdminBannerComponent } from './admin-banner/admin-banner.component';
@@ -13,6 +14,7 @@ import { AdminOrderComponent } from './admin-order/admin-order.component';
 import { TokenService } from '../shared/services/token.service';
 import { SidenavService } from '../shared/services/sidenav.service';
 import { AdminBoardModule } from './admin-board/admin-board.module';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -31,4 +33,5 @@ import { AdminBoardModule } from './admin-board/admin-board.module';
   exports: []
   ,providers: [ProductService,TokenService,SidenavService]
 })
+
 export class AdminModule { }

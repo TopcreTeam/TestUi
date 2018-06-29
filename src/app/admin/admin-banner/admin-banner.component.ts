@@ -5,15 +5,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./admin-banner.component.css']
 })
 export class AdminBannerComponent implements OnInit {
-
-
   constructor(
   ) { }
 
-  ngOnInit() {
-
-  }
-
+  ngOnInit() {}
 
    uploadedFiles: any[] = [];
 

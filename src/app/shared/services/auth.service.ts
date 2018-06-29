@@ -1,7 +1,6 @@
 import { Injectable } from "@angular/core";
 import { Http } from '@angular/http';
 import { Observable } from "rxjs";
-// import * as firebase from "firebase/app";
 import { log } from "util";
 import { Buffer } from "buffer";
 import { User } from "../models/user";
@@ -12,7 +11,6 @@ import 'rxjs/add/operator/map'
 
 @Injectable()
 export class AuthService {
-  // user: Observable<firebase.User>;
   private users: Observable<User[]>;
   usersList: User[] = [];
 
@@ -60,8 +58,6 @@ export class AuthService {
   }
 
   logout() {
-    //localStorage.removeItem("loginToken");
-    //sessionStorage.removeItem("loginToken");
     localStorage.clear();
     sessionStorage.clear();
   }

@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import 'rxjs/add/operator/pairwise';
 import { Router, Event, NavigationStart, NavigationEnd, NavigationError } from '@angular/router';
+import 'rxjs/add/operator/pairwise';
 import { SidenavService } from '../shared/services/sidenav.service';
+
 @Component({
   selector: 'app-admin',
   templateUrl: './admin.component.html',
   styleUrls: ['./admin.component.css']
 })
 export class AdminComponent implements OnInit {
-
 
   constructor(
     private router: Router,

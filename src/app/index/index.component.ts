@@ -9,10 +9,9 @@ declare var $: any;
 })
 export class IndexComponent implements OnInit {
   constructor(private userService:UserService) {
-    console.log(userService.loginUser.uid);
-    console.log(userService.loginUser.uname);
-    console.log(userService.loginUser.uaddr1);
-
+    // console.log(userService.loginUser.uid);
+    // console.log(userService.loginUser.uname);
+    // console.log(userService.loginUser.uaddr1);
   }
 
   ngOnInit() {

@@ -2,11 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
 
-This is Oracle Database ERD
-![ERD](./assets/readmeImg/TomaTomaERD.png)
+[Back-End](https://github.com/TopcreTeam/ShoppingMallAPI) Code
 
-This is Main UI
-메인 이미지파일 들어갈 예정
+# Project Environment
+* **OS :** Windows 10
+* **Tools :** STS, Atom, sqldeveloper
+* **JDK :** JDK 1.8
+* **Database :** Oracle
+* **Version Control :** Git
+
+### Database ERD
+
+![Image of ERD](https://user-images.githubusercontent.com/30831021/41946561-1bd79cfa-79ee-11e8-9415-84bc7631d9e7.png)
+
+### Main UI
+
+![Image of Main UI](https://user-images.githubusercontent.com/32661359/42067973-2a77241e-7b84-11e8-8fde-d184babba674.PNG)
 
 ## Development server
 
