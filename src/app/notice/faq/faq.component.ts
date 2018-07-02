@@ -11,7 +11,7 @@ import { TokenService } from '../../shared/services/token.service';
 })
 export class FaqComponent implements OnInit {
   page = 1;
-  categoryList = ["전체조회", "배송", "환불", "기타"];
+  categoryList = ["전체조회", "배송", "상품", "행사"];
   faqList: Faq[];
   search = '';
 
